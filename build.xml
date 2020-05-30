@@ -13,11 +13,11 @@
 	<!-- property name="libraryClasspath" 
 				  location="/Applications/Processing.app/Contents/Resources/Java/"/ -->
 	<property name="libraryClasspath" 
-			  location="/Users/fjenett/Repos/processing/build/macosx/work/Processing.app/Contents/Resources/Java/" />
+			  location="/opt/processing-3.5.4/core/library/" />
 	
 	<!-- ... the user libraries folder inside your Processing sketchbook -->
 	<property name="processing" 
-			  location="/Users/fjenett/Documents/Processing/libraries"/>
+			  location="/home/pr1metine/sketchbook/libraries"/>
 
 <!-- == No changes or adjustments required below == -->
 
@@ -27,7 +27,7 @@
 	<property name="versionNumber"  value="0.1.1"/>
 	<property name="yourLink"  		value="http://bezier.de/" />
 	<property name="keywords" 		value="Excel, reader, xls, data"/>
-	<property name="javaVersion" 	value="1.5"/>
+	<property name="javaVersion" 	value="1.6"/>
 	
 	<path id="library-classes-add">
 		<fileset dir="lib/poi-3.7/">
